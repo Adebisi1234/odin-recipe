@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    list-style: none;
+}
+
+body {
+    background-color: rgba(22, 19, 19, 0.486);
+}
+
+ul,ol {
+    padding: 0;
+}
