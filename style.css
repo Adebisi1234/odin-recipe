@@ -42,3 +42,33 @@ img {
     height: auto;
     width: 100%;
 }
+
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+      transform: translateX(100%);
+    }
+  
+    to {
+      transform: translateX(0%);
+    }
+}
+
+li {
+    animation-duration: 3s;
+    animation-name: slide;
+}
+
+@keyframes slide {
+    from {
+      transform: translateY(100%);
+    }
+  
+    to {
+      transform: translateY(0%);
+    }
+}
