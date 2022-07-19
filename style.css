@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(22, 19, 19, 0.486);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+.fried {
+    background-image: url(./recipes/Nigeria/fried\ rice.jpg);
+}
+.efo {
+    background-image: url(./recipes/Nigeria/efo\ riro.jpg);
+}
+
+.img {
+    width: 100%;
+    height: 30vh;
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
